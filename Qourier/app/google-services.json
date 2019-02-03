@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "63782747702",
+    "firebase_url": "https://qourier-9430d.firebaseio.com",
+    "project_id": "qourier-9430d",
+    "storage_bucket": "qourier-9430d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63782747702:android:8d1477f15d7bdb20",
+        "android_client_info": {
+          "package_name": "com.example.divyampandya63.qourier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63782747702-1htt63p7qmkmjm2507pp60u6i2eonipm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.divyampandya63.qourier",
+            "certificate_hash": "dd988c6a6e56afcb8cdef4c69d8e6180d436f473"
+          }
+        },
+        {
+          "client_id": "63782747702-qsedqmb3k1he7co3c9m8v812cuq111cj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4shLCvbqE3buu1xnPD9yFCa1we0soMLI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63782747702-qsedqmb3k1he7co3c9m8v812cuq111cj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

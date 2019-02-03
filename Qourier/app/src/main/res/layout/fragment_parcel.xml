@@ -1,0 +1,207 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.divyampandya63.qourier.Fragment.Parcel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:paddingTop="10dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Length"
+            android:layout_weight="4"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#06cbed"/>
+        <EditText
+            android:id="@+id/edit_length"
+            android:hint="In cms"
+            android:inputType="number"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:paddingTop="3dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Width"
+            android:layout_weight="4"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#06cbed"/>
+        <EditText
+            android:id="@+id/edit_width"
+            android:hint="In cms"
+            android:inputType="number"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:paddingTop="3dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Height"
+            android:layout_weight="4"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#06cbed"/>
+        <EditText
+            android:id="@+id/edit_height"
+            android:hint="In cms"
+            android:inputType="number"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:paddingTop="3dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Weight"
+            android:layout_weight="4"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#06cbed"/>
+        <EditText
+            android:id="@+id/edit_weight"
+            android:hint="In kgs"
+            android:inputType="number"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:paddingTop="3dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Invoice Value"
+            android:layout_weight="4"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#06cbed"/>
+        <EditText
+            android:id="@+id/edit_invoice_value"
+            android:hint="In Rs"
+            android:inputType="number"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:paddingTop="3dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="From"
+            android:layout_weight="4"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#06cbed"/>
+        <EditText
+            android:id="@+id/shipping_pincode"
+            android:hint="PINCODE"
+            android:inputType="number"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:paddingTop="3dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="To"
+            android:layout_weight="4"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#06cbed"/>
+        <EditText
+            android:id="@+id/delivery_pincode"
+            android:hint="PINCODE"
+            android:inputType="number"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Save data"
+       android:layout_marginTop="20dp"
+       android:textColor="#ffffff"
+       android:textSize="16sp"
+       android:background="@color/colorPrimary"
+       android:id="@+id/save_button_parcel"
+       android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="160dp"
+            android:id="@+id/next_button_parcel"
+            android:background="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
